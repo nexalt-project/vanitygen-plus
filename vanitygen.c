@@ -524,6 +524,7 @@ main(int argc, char **argv)
 					"MZC : Mazacoin : M\n"
 					"NEET : NEETCOIN : N\n"
 					"NEOS : Neoscoin : S\n"
+                    "XLT : Nexalt : W\n"
 					"NLG : Gulden : G\n"
 					"NMC : Namecoin : M or N\n"
 					"NVC : Novacoin : 4\n"
@@ -1391,6 +1392,14 @@ main(int argc, char **argv)
 					privtype = 176;
 					break;
 			}
+			else
+            if (strcmp(optarg, "XLT")== 0) {
+                fprintf(stderr,
+                        "Generating XLT Address\n");
+                addrtype = 74;
+                privtype = 74;
+                break;
+            }
 			else
 			if (strcmp(optarg, "GRLC")== 0) {
 				fprintf(stderr,

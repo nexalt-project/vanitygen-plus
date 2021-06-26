@@ -210,6 +210,7 @@ Current List of Available Coins for Address Generation
 |MZC | Mazacoin | M  |
 |NEET | NEETCOIN | N  |
 |NEOS | Neoscoin | S  |
+|XLT | Nexalt | W  |
 |NLG | Gulden | G  |
 |NMC | Namecoin | M or N  |
 |NVC | Novacoin | 4  |
